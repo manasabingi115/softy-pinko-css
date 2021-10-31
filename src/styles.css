@@ -1,0 +1,307 @@
+#parent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/banner-bg.png");
+}
+#img1 {
+  position: relative;
+  background-size: 0%;
+}
+#top {
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 50px;
+
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+#top-wrapper {
+  position: fixed;
+  width: 100%;
+}
+#h1,
+#para1 {
+  text-align: center;
+}
+button {
+  border-radius: 30px;
+  padding: 15px 30px;
+  background-color: rgb(212, 10, 196);
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border: 0px;
+}
+
+.strategy-section {
+  text-align: center;
+}
+#top h5 {
+  margin-left: 10px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+.strategy-wrapper {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.round {
+  padding: 20px 20px;
+  border-radius: 2000px;
+  background-color: purple;
+}
+.image1 {
+  padding: 30px 30px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 300px;
+  margin-bottom: -150px;
+  box-shadow: 2px 2px 30px #ccc;
+}
+.divs {
+  display: flex;
+  justify-content: center;
+}
+.big-img-a {
+  margin-top: 300px;
+}
+.line1 {
+  text-align: left;
+  width: 450px;
+  margin-top: 300px;
+  padding: 30px 150px;
+}
+.line-a,
+.line-b {
+  display: flex;
+  justify-content: center;
+}
+.line2 {
+  text-align: left;
+  width: 450px;
+  margin-top: 200px;
+  margin-right: 200px;
+}
+.big-img-b {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+#parent2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/work-process-bg.png");
+}
+.paragragh {
+  color: white;
+  text-align: center;
+  padding: 100px;
+}
+.small-img {
+  background-color: white;
+}
+.small-box {
+  padding: 15px 35px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100px;
+  display: table;
+  box-shadow: 20px 20px 30px #6b236b;
+}
+.small-box:hover {
+  margin-top: -10px;
+  transform: rotate(10deg);
+}
+#boxes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.pa {
+  text-align: center;
+}
+.cath {
+  padding: 30px 30px;
+  border-radius: 20px;
+  background-color: pink;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 290px;
+}
+.circle {
+  border-radius: 50px;
+  padding: 10px;
+}
+.circle-bit {
+  display: flex;
+}
+.msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#last {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+  padding: 50px 50px;
+}
+.move-right:hover {
+  margin-left: 20px;
+  transform-style: 10deg;
+}
+.move-right {
+  display: inline-block;
+}
+.end-box {
+  padding: 25px 75px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  display: table;
+  box-shadow: 20px 20px 30px #6b236b;
+}
+.currency {
+  font-size: 35px;
+}
+.cost {
+  font-size: 25px;
+}
+.end {
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  text-align: center;
+}
+.mat {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 50px;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+}
+#number-block {
+  background-image: url("https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/work-process-bg.png");
+  display: flex;
+  background-size: cover;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  padding: 150px;
+}
+.last-para {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.last-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.last-image {
+  max-width: 30%;
+}
+.last-image img {
+  width: 100%;
+}
+button:hover {
+  background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  .divs {
+    flex-direction: column;
+    width: unset;
+    margin-bottom: 20px;
+  }
+  .image1 {
+    margin-bottom: 20px;
+  }
+  .line-a {
+    flex-direction: column;
+    align-items: center;
+  }
+  .big-img-a {
+    margin-top: 10px;
+  }
+  .line2 {
+    width: unset;
+    margin-top: unset;
+    margin-right: unset;
+  }
+  .line-a .line1 {
+    width: unset;
+    margin-top: unset;
+    padding: unset;
+  }
+  .line-b {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .big-img-b {
+    margin-top: 10px;
+    margin-right: unset;
+  }
+  #boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .small-box {
+    width: unset;
+    margin-bottom: 15px;
+  }
+  #last {
+    flex-direction: column;
+    width: unset;
+    margin-bottom: 20px;
+  }
+  .cath {
+    margin-bottom: 20px;
+  }
+  .end {
+    flex-direction: column;
+    width: unset;
+    margin-bottom: 20px;
+  }
+  .price,
+  .numbers {
+    margin-bottom: 50px;
+  }
+  .number-block {
+    flex-direction: column;
+    width: unset;
+    margin-bottom: 20px;
+  }
+  .numbers {
+    margin-bottom: 50px;
+  }
+}
